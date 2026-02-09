@@ -23,6 +23,7 @@ Persistent Connectivity: Disabled Key Expiry for the server nodes to ensure the 
 Verification (The SRE Proof)
 From my S25 Terminal (Termux), I can verify the mesh health by reaching the internal GCP IP:
 
-Bash
+´´´bash
 # Pinging the internal IP of the US-based VM from a mobile device in Germany
 ping 10.128.0.2
+´´´
