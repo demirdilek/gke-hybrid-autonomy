@@ -28,7 +28,7 @@ From my S25 Terminal (Termux), I can verify the mesh health by reaching the inte
 
 ```Bash
 # Pinging the internal IP of the US-based VM from a mobile device
-ping 10.128.0.2 -c 4
+ping  -c 4 10.128.0.2
 # Success: 0% packet loss, RTT ~140ms (via direct Tailscale path)
 📊 Monitoring & Observability
 Prometheus: Scrapes metrics from the HP Laptop via node_exporter on Port 9100.
